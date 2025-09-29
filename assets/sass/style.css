@@ -410,6 +410,23 @@ a.ui-button:active, .ui-button:active,
   left: 15px;
 }
 
+.hwd-meet {
+  /* Default styles */
+  height: 404px; /* or your default height */
+ width: 100%;  /* or your default width */
+  object-fit: cover;
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .hwd-meet {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+
 @media (max-width: 991px) {
   .music-box {
     width: 250px;
